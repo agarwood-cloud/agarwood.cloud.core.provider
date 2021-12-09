@@ -20,7 +20,8 @@
     "swoft/http-server": "~2.0.0",
     "swoft/rpc-client": "~2.0.0",
     "swoft/rpc-server": "~2.0.0",
-    "swoft/process": "~2.0.0"
+    "swoft/process": "~2.0.0",
+    "yurunsoft/guzzle-swoole": "^2.2"
   },
   "require-dev": {
     "swoft/devtool": "~2.0.0",
