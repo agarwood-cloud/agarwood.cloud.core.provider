@@ -12,6 +12,7 @@
     "ext-pdo": "*",
     "ext-redis": "*",
     "ext-simplexml": "*",
+    "overtrue/wechat": "^5.16",
     "swoft/db": "~2.0.0",
     "swoft/framework": "~2.0.0",
     "swoft/http-server": "~2.0.0",
@@ -53,12 +54,11 @@
     "cs-fix": "./vendor/bin/php-cs-fixer fix"
   },
   "config": {
-    "sort-packages": true
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://mirrors.aliyun.com/composer/"
+    "sort-packages": true,
+    "allow-plugins": {
+      "yurunsoft/composer-include-files": true,
+      "yurunsoft/guzzle-swoole": true,
+      "easywechat-composer/easywechat-composer": true
     }
-  ]
+  }
 }
