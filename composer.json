@@ -5,7 +5,7 @@
   "license": "proprietary",
   "homepage": "https://github.com/agarwood-cloud/agarwood.cloud.core.provider.git",
   "require": {
-    "php": ">=8.0",
+    "php": ">=8.1",
     "ext-json": "*",
     "ext-libxml": "*",
     "ext-mbstring": "*",
