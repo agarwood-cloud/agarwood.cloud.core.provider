@@ -5,9 +5,9 @@ Core is a part of agarwood and the core class library of the whole project.
 
 ### Requirements
 
-- PHP 8.1+
-- Swoole 4.6.8+
-- Composer
+- PHP 8.0+
+- Swoole 4.8.6+
+- Composer 2.0+
 
 ### License
 
